@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div id="cabecalho">
+        <form id="formulario">
+            <div>
+                <h2>Validação de Formulário</h2>
+                <p>Valor B deverá ser maior que valor A</p>  
+            </div>
+            
+            <input type="number" name="n1" id="n1" placeholder="Campo A" required min="0"> <br>
+            <input type="number" name="n2" id="n2" placeholder="Campo B" required min="0"> <br>
+            <p id="erro-mensagem">
+                O número do campo B deve ser maior que o campo A
+            </p> <br>
+            <button type="submit" id="enviar">Conferir</button>
+            <p id="sucesso-mensagem"></p>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

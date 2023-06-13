@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background-image: linear-gradient(
+        45deg,
+        rgb(138, 77, 189) 10%,
+        black 100%
+    );
+}
+
+div#cabecalho {
+    background-color: rgb(154, 139, 207);
+    display: block;
+    padding: 126px;
+    margin: 100px 350px;
+    text-align: center;
+    border-radius: 50px;
+    
+    
+    
+}
+
+input {
+    margin: 3px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.541);
+    padding: 9px;
+    border-radius: 21px;
+    width: 280px;
+    border: 1px;
+    color: black;
+    
+}
+
+div {
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 0.836);
+    
+    
+}
+
+button {
+    background-color: rgb(27, 27, 27);
+    color: rgb(230, 228, 228);
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    border: 1px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px rgba(170, 169, 169, 0.589);
+    cursor: pointer;
+}
+
+
+#sucesso-mensagem {
+    background-color: #27ae60;
+    padding: 16px;
+    color: #fff;
+    display: none;
+}
+
+#erro-mensagem {
+    font-size: 12px;
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+}
+
+input.erro{
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
